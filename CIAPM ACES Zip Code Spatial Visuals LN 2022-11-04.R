@@ -9,7 +9,7 @@
   #https://www.infoworld.com/article/3505897/how-to-do-spatial-analysis-in-r-with-sf.html
 
 #LOAD NECESSARY PACKAGES ##################################################
-pacman::p_load(pacman, party, psych, rio, tidyverse, dplyr, magrittr, ggplot2, car, ggrepel,ggpubr, epiDisplay, tigris, sp, rgeos, leaflet, sf, tmap, tmaptools, rgeos, viridis)
+pacman::p_load(pacman, party, psych, rio, tidyverse, magrittr, car, ggrepel,ggpubr, epiDisplay, tigris, sp, rgeos, leaflet, sf, tmap, tmaptools, rgeos, viridis)
 options(tigris_use_cache = TRUE)
 
 #IMPORT DATA###############################################################
